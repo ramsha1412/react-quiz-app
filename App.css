@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.questions, .result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    background-color: rgba(173, 173, 173, 0.521);
+    box-shadow: 2px 2px 5px rgb(31, 31, 31);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    padding: 8px;
+}
+button:hover{
+    background-color: rgba(90, 89, 89, 0.589);
+    transform: translateY(-3px);
+}
+h1{
+    font-size: 40px;
+}
